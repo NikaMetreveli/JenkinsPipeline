@@ -17,8 +17,8 @@ pipeline {
 
       }
     }
-   }
-	  tools {
-    maven 'MyMaven'
-}
+  tools {
+    maven 'Maven3'
+  }
+    
 }
