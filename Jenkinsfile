@@ -20,6 +20,6 @@ pipeline {
 
   }
 	tools {
-    maven 'Maven3'
+    maven 'MyMaven'
   }
 }
