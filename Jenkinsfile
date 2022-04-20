@@ -19,7 +19,7 @@ pipeline {
     }
 
   }
-	tools {
+  tools {
     maven 'MyMaven'
   }
 }
