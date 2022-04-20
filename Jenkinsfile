@@ -5,13 +5,13 @@ pipeline {
       parallel {
         stage('version check') {
           steps {
-            bat 'mvn --version'
+            bat 'cmd mvn --version'
           }
         }
 
         stage('run program') {
           steps {
-            bat 'mvn clean test'
+            bat 'cmd mvn clean test'
           }
         }
 
